@@ -6,7 +6,7 @@
 }
 
 body {
-background: #1f1f47
+ background: #1f1f47
  background-size: cover;
  font-family: sans-serif;
  margin-top: 80px;
@@ -19,7 +19,8 @@ header img {
 }
 
 header {
- position: fixed;
+    background: white;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
