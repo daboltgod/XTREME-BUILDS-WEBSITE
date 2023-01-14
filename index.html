@@ -24,10 +24,8 @@
   <div class="spinner">
     <div class="spinner1"></div>
   </div>
-  <!--Button to go to main page-->
-  <center>
-    <button>I'M READY</button>
-  </center>
+  
+  <h1>XTREME BUILDS</h1>
   
   <!--Conclude the preloader after a set time-->
   <script>
@@ -36,19 +34,6 @@ $(document).ready(function() {
 preloaderFadeOutTime = 500;
 function hidePreloader() {
 var preloader = $('.spinner');
-preloader.fadeOut(preloaderFadeOutTime);
-}
-hidePreloader();
-});
-</script>
-  
-  <!--Spinner has two phases that must conclude-->
-  <script>
-$(document).ready(function() {
-//Preloader
-preloaderFadeOutTime = 500;
-function hidePreloader() {
-var preloader = $('.spinner1');
 preloader.fadeOut(preloaderFadeOutTime);
 }
 hidePreloader();
