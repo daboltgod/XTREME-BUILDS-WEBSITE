@@ -1,5 +1,5 @@
 body {
- background-image: linear-gradient(rgb(31,31,31), rgb(48,47,47));
+ background-image: linear-gradient(bottom, rgb(31,31,31), rgb(48,47,47));
  background-size: cover;
  font-family: sans-serif;
  margin-top: 80px;
