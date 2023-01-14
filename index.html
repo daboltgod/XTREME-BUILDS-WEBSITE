@@ -1,3 +1,7 @@
+<!--Website made by DaBoltGod-->
+<!--Copyright XTREME BUILDS 2023 MIT LICENSE-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,5 +28,31 @@
   <center>
     <button>I'M READY</button>
   </center>
+  
+  <!--Conclude the preloader after a set time-->
+  <script>
+$(document).ready(function() {
+//Preloader
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.spinner');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+</script>
+  
+  <!--Spinner has two phases that must conclude-->
+  <script>
+$(document).ready(function() {
+//Preloader
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.spinner1');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+</script>
 </body>
 </html>
