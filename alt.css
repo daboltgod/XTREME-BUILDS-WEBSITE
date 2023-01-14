@@ -13,13 +13,20 @@ body {
  padding: 30px;
 }
 
+h1 {
+	color: white;
+}
+
+a {
+	color: white;
+}
+
 header img {
  height: 80px;
  margin-left: 40px;
 }
 
 header {
-    background: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +39,6 @@ header {
 
 header * {
     display: inline;
-    background: white;
 }
 
 header li {
