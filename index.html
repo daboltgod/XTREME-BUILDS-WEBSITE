@@ -18,9 +18,15 @@
   <meta property="og:image" content="image.png">
   <link rel="icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" type="text/css" href="css/alt.css">
+  <link rel="stylesheet" type="text/css" href="alt.css">
 </head>
 <body>
+  
+  <div class="loader">
+    <span>XTREME</span>
+    <span>XTREME</span>
+</div>
+  
 <div class="navbar">
   <header>
     <img src-"image.png">
@@ -37,5 +43,18 @@
   
   <h1>XTREME BUILDS</h1>
   
+  
+  
+  <script>
+$(document).ready(function() {
+//Preloader
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.loader');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+</script>
 </body>
 </html>
