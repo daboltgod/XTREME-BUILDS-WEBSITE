@@ -44,11 +44,11 @@
 }
 /*Dual Columns */
  .float-container {
-      color: white;
+     color: white;
      padding: 20px;
 }
  .float-child {
-      color: white;
+     color: white;
      width: 50%;
      float: left;
      padding: 20px;
