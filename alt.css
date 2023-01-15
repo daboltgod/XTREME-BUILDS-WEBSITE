@@ -21,6 +21,7 @@ a {
 	color: white;
 }
 
+/* Navbar */
 header img {
  height: 80px;
  margin-left: 40px;
@@ -50,6 +51,20 @@ header li a {
     text-decoration: none;
 }
 
+/*Dual Columns */
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+} 
+
+/* Signin Form */
 .card {
   margin:50px ;
   float:right;
@@ -136,6 +151,8 @@ button:hover {
   overflow: hidden;
 }
 
+
+/* Blob */
 .glasscard {
   width: 400px;
   min-height: 250px;
