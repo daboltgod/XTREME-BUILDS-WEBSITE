@@ -30,12 +30,6 @@ p {
      color: white;
 }
 
-/* Title on the main page */
-.intro {
-     color: white;
-     text-shadow: 2px 2px 5px white;
-}
-
 /* Navbar */
  header img {
      height: 80px;
