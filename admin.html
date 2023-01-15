@@ -1,0 +1,125 @@
+<!--Website made by DaBoltGod-->
+<!--Copyright XTREME BUILDS 2023 MIT LICENSE-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>XTREME BUILDS | ADMIN - Staff Access Required!</title>
+  <meta name="description" content="XTREME BUILDS is devoted to building the best quality gaming pcs on the market for an affordable price!">
+  <meta name="author" content="XTREME BUILDS">
+  <meta property="og:title" content="403 Error | Forbidden">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.xtremebuilds.gg">
+  <meta property="og:description" content="XTREME BUILDS is devoted to building the best quality gaming pcs on the market for an affordable price!">
+  <meta property="og:image" content="image.png">
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  <style>
+    .form__group {
+  position: relative;
+}
+
+.form__field {
+  border: 1px solid silver !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #313a46;
+  height: 40px;
+  padding: 0rem 15px;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  top: 10px;
+  border-right: none;
+  border-left: none;
+}
+
+.form__label {
+  background-color: white;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  color: #9b9b9b;
+  display: block;
+  font-size: .9em;
+  margin-left: 10px;
+  padding: 0 10px;
+  pointer-events: none;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+}
+
+.form__field:focus {
+  border: 1px solid #B9192C !important;
+  outline: none;
+}
+
+.form__field:focus ~ .form__label {
+  background-color: white;
+  border-right: 1px solid #B9192C;
+  border-left: 1px solid #B9192C;
+  color: #B9192C;
+  font-size: .9em;
+  margin-left: 10px;
+  padding: 0 10px;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+}
+  </style>
+</head>
+<body>
+ 
+  <div class="intro">
+    <center> 
+      <h1>XTREME BUILDS ADMIN</h1> 
+  </center>
+  </div>
+    
+<div class="form__group">
+    <input type="text" class="form__field w-100" placeholder="User ID to IP ban!">
+    <label for="name" class="form__label"> Input ID </label>
+</div>
+  
+  <div class="form__group">
+    <input type="text" class="form__field w-100" placeholder="User ID force authorize!">
+    <label for="name" class="form__label"> Input ID </label>
+</div>
+ 
+  <div class="form__group">
+    <input type="text" class="form__field w-100" placeholder="User ID to send verification email!">
+    <label for="name" class="form__label"> Input ID </label>
+</div>
+  
+  <!--Disable DevTools-->
+  <script>
+    document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
+
+document.onkeydown = (e) => {
+  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, 'I') ||
+    ctrlShiftKey(e, 'J') ||
+    ctrlShiftKey(e, 'C') ||
+    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+  )
+    return false;
+};
+  </script>
+  
+</body>
+</html>
